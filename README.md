@@ -10,4 +10,4 @@ Simple MVC based golang website without sql DB usage (hard coded data)
 
 ## TO-DO:
 ### 1 css usage implementation
-### 2 helpful links list
+### 2 helpful list of links
