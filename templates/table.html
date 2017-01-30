@@ -1,0 +1,22 @@
+<html>
+<head><meta></meta></head>
+<body bgcolor=#f2f2f2>
+<h4>USERS TABLE: </h4>
+
+<table id="tabelku" width='700' border='1'>
+<tr>
+<td><h2>FirstName</h2></td><td><h2>Email</h2></td><td><h2>Username</h2></td>
+</tr>
+<form method="post">
+
+{{range .}}
+<tr>
+<td height='40'>{{.FirstName}}</td><td>{{.Email}}</td><td>{{.Username}}</td>
+</tr>
+{{end}}
+
+</form>
+</table>
+</body>
+</html>
+
